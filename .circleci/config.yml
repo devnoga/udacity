@@ -13,9 +13,6 @@ jobs:
       - checkout
       # install dependencies in both apps
       - run:
-          name: Install Dependencies
-          command: yarn install --immutable
-      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
